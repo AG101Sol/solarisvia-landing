@@ -1,417 +1,285 @@
 <!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Elements - Solid State by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>SOLARIS VIA — Architect of Sustainable Civilizations</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Корректировка цветовой гаммы для SOLARIS VIA */
+        body {
+            background: #0a1e2f !important;
+        }
+        .wrapper.style1, .wrapper.style2, .wrapper.style3, .wrapper.style4, .wrapper.style5, .wrapper.style6 {
+            background: #0f2940 !important;
+        }
+        .wrapper.spotlight {
+            background: #1a3a5a !important;
+        }
+        .wrapper.spotlight.style2 {
+            background: #154a6a !important;
+        }
+        .button.primary {
+            background: #f5b041 !important;
+            color: #0a1e2f !important;
+            box-shadow: none !important;
+        }
+        .button.primary:hover {
+            background: #e67e22 !important;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff !important;
+        }
+        h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+            border-bottom-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        a {
+            color: #f5b041 !important;
+            border-bottom-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        a:hover {
+            border-bottom-color: transparent !important;
+        }
+        .features article {
+            background: rgba(255, 255, 255, 0.05) !important;
+            border: 1px solid rgba(245, 176, 65, 0.1) !important;
+        }
+        .features article h3 {
+            color: #f5b041 !important;
+        }
+        .statistics li {
+            background: rgba(255, 255, 255, 0.05) !important;
+            border-color: rgba(245, 176, 65, 0.1) !important;
+        }
+        .statistics li strong {
+            color: #f5b041 !important;
+        }
+        #header {
+            background: rgba(10, 30, 47, 0.95) !important;
+        }
+        #header nav a[href="#menu"] {
+            box-shadow: inset 0 0 0 2px rgba(245, 176, 65, 0.3) !important;
+        }
+        #header nav a[href="#menu"]:hover {
+            background: rgba(245, 176, 65, 0.1) !important;
+        }
+        #banner {
+            background: #0a1e2f !important;
+        }
+        #banner h2 {
+            border-bottom-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        #footer {
+            background: #0a1e2f !important;
+        }
+        #footer .inner .copyright {
+            border-top-color: rgba(245, 176, 65, 0.1) !important;
+        }
+        #footer .inner .copyright li {
+            border-left-color: rgba(245, 176, 65, 0.1) !important;
+        }
+        #menu {
+            background: rgba(10, 30, 47, 0.9) !important;
+        }
+        #menu .inner {
+            background: #1a3a5a !important;
+        }
+        #menu .links li a:hover {
+            background: rgba(245, 176, 65, 0.2) !important;
+        }
+        .icon.solid {
+            color: #f5b041 !important;
+        }
+        input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+            box-shadow: inset 0 0 0 2px rgba(245, 176, 65, 0.3) !important;
+            color: #ffffff !important;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+            background: rgba(245, 176, 65, 0.1) !important;
+        }
+        a.special:not(.button):before {
+            border-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        a.special:not(.button):hover:before {
+            background: rgba(245, 176, 65, 0.1) !important;
+        }
+        #banner .logo .icon {
+            border-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        .badge {
+            color: #f5b041 !important;
+        }
+        .badge i {
+            color: #f5b041 !important;
+        }
+        .contact a {
+            color: #f5b041 !important;
+        }
+        .contact a:hover {
+            text-decoration: underline !important;
+        }
+        .contact p strong {
+            color: #ffffff !important;
+        }
+        footer a {
+            color: #f5b041 !important;
+        }
+        footer a:hover {
+            text-decoration: underline !important;
+        }
+        .copyright a {
+            color: #f5b041 !important;
+        }
+        /* Адаптация под мобильные */
+        @media (max-width: 640px) {
+            .features article {
+                margin: 0 0 1em 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <span class="icon fa-gem"></span>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <h1>SOLARIS VIA</h1>
+                <p>Singapore. Horizon 3037. We create cities that breathe, recycle, and grow with people.</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#directions">Directions</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#trust">Trust</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+    <!-- Main -->
+    <div id="main">
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+        <!-- Mission -->
+        <article id="mission">
+            <h2 class="major">Architect of Sustainable Civilizations</h2>
+            <p>We solve the problems of urbanization, ecology, and human capital in an integrated manner. Five directions — one closed-loop ecosystem. Our first market is Bangladesh (175 million people). Our scale is Southeast Asia and Africa (2.5 billion people by 2050).</p>
+            <a href="#contact" class="button primary">Become a participant</a>
+        </article>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<header>
-							<div class="inner">
-								<h2>Elements</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
-							</div>
-						</header>
+        <!-- Directions -->
+        <article id="directions">
+            <h2 class="major">Five Directions. One Ecosystem.</h2>
+            <p>We don't solve one problem — we solve them all simultaneously. Each direction amplifies the others.</p>
+            <div class="features">
+                <article>
+                    <span class="icon solid fa-chart-line"></span>
+                    <div class="content">
+                        <h3>MERAKI ADVISORY</h3>
+                        <p>Strategy, ESG certification, investment attraction.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-recycle"></span>
+                    <div class="content">
+                        <h3>RESOURCE QUANTUM</h3>
+                        <p>Waste-to-energy and secondary materials recycling.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-water"></span>
+                    <div class="content">
+                        <h3>PRAGMATICA DELTA</h3>
+                        <p>Water purification, ecosystem restoration, carbon credits.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-city"></span>
+                    <div class="content">
+                        <h3>NOVUS ORBIS</h3>
+                        <p>Eco-cities, smart neighborhoods, affordable housing.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-users"></span>
+                    <div class="content">
+                        <h3>ANIMA MUNDI</h3>
+                        <p>Education, culture, health, and community well-being.</p>
+                    </div>
+                </article>
+            </div>
+        </article>
 
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
+        <!-- Facts -->
+        <article id="facts">
+            <h2 class="major">Numbers That Speak for Themselves</h2>
+            <p>We rely on data, not promises. The market exists. The resources exist. The model is calculated.</p>
+            <ul class="statistics">
+                <li class="style1">
+                    <span class="icon solid fa-people-group"></span>
+                    <strong>175M</strong> Population of Bangladesh
+                </li>
+                <li class="style2">
+                    <span class="icon solid fa-trash"></span>
+                    <strong>30K t/day</strong> Solid waste
+                </li>
+                <li class="style3">
+                    <span class="icon solid fa-house-chimney"></span>
+                    <strong>2.5M</strong> Housing deficit in Dhaka
+                </li>
+                <li class="style4">
+                    <span class="icon solid fa-chart-pie"></span>
+                    <strong>22%</strong> Projected IRR
+                </li>
+                <li class="style5">
+                    <span class="icon solid fa-clock"></span>
+                    <strong>6.5 yrs</strong> Payback period
+                </li>
+                <li class="style6">
+                    <span class="icon solid fa-arrow-trend-up"></span>
+                    <strong>38%</strong> EBITDA margin by year 5
+                </li>
+            </ul>
+        </article>
 
-									<section>
-										<h3 class="major">Text</h3>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<h4>Blockquote</h4>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h4>Preformatted</h4>
-										<pre><code>i = 0;
+        <!-- Trust -->
+        <article id="trust">
+            <h2 class="major">We Build Trust on Facts</h2>
+            <p>We are forming SOLARIS VIA as a company with Singapore jurisdiction — our legal foundation (registration scheduled for September 2026).</p>
+            <p>We operate according to ESG standards and are guided by the Paris Agreement — our principles already embedded in the business model.</p>
+            <p>We are in negotiations with partners (Siemens, Veolia, ADB, Green Climate Fund) — our strategic focus.</p>
+            <p>Legal integrity and transparency are our standards.</p>
+        </article>
 
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
+        <!-- Contact -->
+        <article id="contact">
+            <h2 class="major">Ready for Dialogue. Become Part of the Future.</h2>
+            <p>We are open to strategic partners, investors, and grantmakers.</p>
+            <p><strong>Email:</strong> <a href="mailto:founder@solarisvia.com">founder@solarisvia.com</a></p>
+            <p><strong>Phone:</strong> +7-905-775-55-17</p>
+            <a href="#" class="button primary">Download White Paper</a>
+        </article>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
+    </div>
 
-									<section>
-										<h3 class="major">Lists</h3>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<h4>Unordered</h4>
-												<ul>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
-												</ul>
-												<h4>Alternate</h4>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<h4>Ordered</h4>
-												<ol>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis viverra.</li>
-													<li>Felis enim feugiat.</li>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis lorem.</li>
-													<li>Felis enim et feugiat.</li>
-												</ol>
-												<h4>Icons</h4>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h4>Actions</h4>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<ul class="actions">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-												</ul>
-												<ul class="actions small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-												</ul>
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-												</ul>
-												<ul class="actions stacked small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-												</ul>
-												<ul class="actions stacked small">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-										<h4>Pagination</h4>
-										<ul class="pagination">
-											<li><span class="button small disabled">Prev</span></li>
-											<li><a href="#" class="page active">1</a></li>
-											<li><a href="#" class="page">2</a></li>
-											<li><a href="#" class="page">3</a></li>
-											<li><span>&hellip;</span></li>
-											<li><a href="#" class="page">8</a></li>
-											<li><a href="#" class="page">9</a></li>
-											<li><a href="#" class="page">10</a></li>
-											<li><a href="#" class="button small">Next</a></li>
-										</ul>
-									</section>
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="copyright">&copy; SOLARIS VIA PTE. LTD. — Singapore. All rights reserved.</p>
+        <p class="copyright">This site is for informational purposes and is not an offer.</p>
+    </footer>
 
-									<section>
-										<h3 class="major">Table</h3>
-										<h4>Default</h4>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-										<h4>Alternate</h4>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section>
-										<h3 class="major">Buttons</h3>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button large">Large</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Disabled</span></li>
-											<li><span class="button disabled">Disabled</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h3 class="major">Form</h3>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<label for="demo-name">Name</label>
-													<input type="text" name="demo-name" id="demo-name" value="" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<label for="demo-email">Email</label>
-													<input type="email" name="demo-email" id="demo-email" value="" />
-												</div>
-												<div class="col-12">
-													<label for="demo-category">Category</label>
-													<select name="demo-category" id="demo-category">
-														<option value="">-</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy</label>
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">Not a robot</label>
-												</div>
-												<div class="col-12">
-													<label for="demo-message">Message</label>
-													<textarea name="demo-message" id="demo-message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" class="primary" /></li>
-														<li><input type="reset" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h3 class="major">Image</h3>
-										<h4>Fit</h4>
-										<div class="box alt">
-											<div class="row gtr-uniform">
-												<div class="col-12"><span class="image fit"><img src="images/pic08.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h4>Left &amp; Right</h4>
-										<p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-										<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
-									</section>
-
-								</div>
-							</div>
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
