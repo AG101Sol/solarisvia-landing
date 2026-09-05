@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLARIS VIA</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #0a1e2f; color: #fff; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { padding: 20px 0; border-bottom: 1px solid #1a3a5a; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        header h1 { color: #f5b041; font-size: 1.5rem; }
+        nav a { color: #b0c4d8; text-decoration: none; margin-left: 20px; }
+        nav a:hover { color: #f5b041; }
+        .hero { text-align: center; padding: 80px 0; background: linear-gradient(135deg, #0a1e2f, #1a3a4a); }
+        .hero h2 { font-size: 2.8rem; color: #f5b041; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px; color: #b0c4d8; }
+        .btn { display: inline-block; background: #f5b041; color: #0a1e2f; padding: 14px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; }
+        .btn:hover { background: #e67e22; }
+        .section { padding: 60px 0; }
+        .section:nth-child(even) { background: #0f1f30; }
+        .section h2 { font-size: 2rem; color: #f5b041; margin-bottom: 20px; }
+        .section p { max-width: 700px; color: #b0c4d8; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .card { background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; border: 1px solid #1a3a5a; text-align: center; }
+        .card h3 { color: #f5b041; margin-bottom: 10px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 20px; }
+        .stat { background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; text-align: center; }
+        .stat span { display: block; font-size: 2rem; font-weight: bold; color: #f5b041; }
+        .badge { background: rgba(245,176,65,0.1); color: #f5b041; padding: 8px 16px; border-radius: 20px; margin: 5px; display: inline-block; }
+        footer { padding: 30px 0; border-top: 1px solid #1a3a5a; text-align: center; color: #7a8fa0; font-size: 0.9rem; }
+        @media (max-width: 640px) { .hero h2 { font-size: 2rem; } .grid { grid-template-columns: 1fr; } header { flex-direction: column; gap: 10px; } nav a { margin: 0 10px; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SOLARIS VIA</h1>
+            <nav>
+                <a href="#mission">Mission</a>
+                <a href="#directions">Directions</a>
+                <a href="#facts">Facts</a>
+                <a href="#trust">Trust</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Singapore. Horizon 3037.</h2>
+            <p>We create cities that breathe, recycle, and grow with people.</p>
+            <a href="#contact" class="btn">Become a participant</a>
+        </div>
+    </section>
+    <section class="section" id="mission">
+        <div class="container">
+            <h2>Architect of Sustainable Civilizations</h2>
+            <p>We solve the problems of urbanization, ecology, and human capital in an integrated manner. Five directions — one closed-loop ecosystem. Our first market is Bangladesh (175 million people).</p>
+        </div>
+    </section>
+    <section class="section" id="directions">
+        <div class="container">
+            <h2>Five Directions. One Ecosystem.</h2>
+            <p>Each direction amplifies the others.</p>
+            <div class="grid">
+                <div class="card"><h3>MERAKI ADVISORY</h3><p>Strategy, ESG, investments</p></div>
+                <div class="card"><h3>RESOURCE QUANTUM</h3><p>Waste-to-energy, recycling</p></div>
+                <div class="card"><h3>PRAGMATICA DELTA</h3><p>Water, restoration, carbon</p></div>
+                <div class="card"><h3>NOVUS ORBIS</h3><p>Eco-cities, smart homes</p></div>
+                <div class="card"><h3>ANIMA MUNDI</h3><p>Education, culture, health</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="facts">
+        <div class="container">
+            <h2>Numbers That Speak</h2>
+            <p>Data, not promises.</p>
+            <div class="stats">
+                <div class="stat"><span>175M</span>Bangladesh</div>
+                <div class="stat"><span>30K t/day</span>Solid waste</div>
+                <div class="stat"><span>2.5M</span>Housing deficit</div>
+                <div class="stat"><span>22%</span>IRR</div>
+                <div class="stat"><span>6.5 yrs</span>Payback</div>
+                <div class="stat"><span>38%</span>EBITDA</div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="trust">
+        <div class="container">
+            <h2>We Build Trust on Facts</h2>
+            <p>Singapore jurisdiction, ESG standards, Paris Agreement. Partnerships with Siemens, Veolia, ADB, Green Climate Fund.</p>
+            <div>
+                <span class="badge">Singapore registration</span>
+                <span class="badge">ESG standards</span>
+                <span class="badge">Paris Agreement</span>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact" style="background: #0f1f30; text-align:center;">
+        <div class="container">
+            <h2>Ready for Dialogue. Become Part of the Future.</h2>
+            <p><strong>Email:</strong> <a href="mailto:founder@solarisvia.com" style="color:#f5b041;">founder@solarisvia.com</a></p>
+            <p><strong>Phone:</strong> +7-905-775-55-17</p>
+            <a href="#" class="btn" style="margin-top:20px; display:inline-block;">Download White Paper</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>SOLARIS VIA PTE. LTD. — Singapore. All rights reserved.</p>
+            <p style="font-size:0.8rem; opacity:0.7;">This site is for informational purposes and is not an offer.</p>
+        </div>
+    </footer>
+</body>
+</html>
