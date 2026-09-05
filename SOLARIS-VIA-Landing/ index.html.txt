@@ -1,0 +1,285 @@
+<<!DOCTYPE HTML>
+<html>
+<head>
+    <title>SOLARIS VIA — Architect of Sustainable Civilizations</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Корректировка цветовой гаммы для SOLARIS VIA */
+        body {
+            background: #0a1e2f !important;
+        }
+        .wrapper.style1, .wrapper.style2, .wrapper.style3, .wrapper.style4, .wrapper.style5, .wrapper.style6 {
+            background: #0f2940 !important;
+        }
+        .wrapper.spotlight {
+            background: #1a3a5a !important;
+        }
+        .wrapper.spotlight.style2 {
+            background: #154a6a !important;
+        }
+        .button.primary {
+            background: #f5b041 !important;
+            color: #0a1e2f !important;
+            box-shadow: none !important;
+        }
+        .button.primary:hover {
+            background: #e67e22 !important;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff !important;
+        }
+        h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+            border-bottom-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        a {
+            color: #f5b041 !important;
+            border-bottom-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        a:hover {
+            border-bottom-color: transparent !important;
+        }
+        .features article {
+            background: rgba(255, 255, 255, 0.05) !important;
+            border: 1px solid rgba(245, 176, 65, 0.1) !important;
+        }
+        .features article h3 {
+            color: #f5b041 !important;
+        }
+        .statistics li {
+            background: rgba(255, 255, 255, 0.05) !important;
+            border-color: rgba(245, 176, 65, 0.1) !important;
+        }
+        .statistics li strong {
+            color: #f5b041 !important;
+        }
+        #header {
+            background: rgba(10, 30, 47, 0.95) !important;
+        }
+        #header nav a[href="#menu"] {
+            box-shadow: inset 0 0 0 2px rgba(245, 176, 65, 0.3) !important;
+        }
+        #header nav a[href="#menu"]:hover {
+            background: rgba(245, 176, 65, 0.1) !important;
+        }
+        #banner {
+            background: #0a1e2f !important;
+        }
+        #banner h2 {
+            border-bottom-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        #footer {
+            background: #0a1e2f !important;
+        }
+        #footer .inner .copyright {
+            border-top-color: rgba(245, 176, 65, 0.1) !important;
+        }
+        #footer .inner .copyright li {
+            border-left-color: rgba(245, 176, 65, 0.1) !important;
+        }
+        #menu {
+            background: rgba(10, 30, 47, 0.9) !important;
+        }
+        #menu .inner {
+            background: #1a3a5a !important;
+        }
+        #menu .links li a:hover {
+            background: rgba(245, 176, 65, 0.2) !important;
+        }
+        .icon.solid {
+            color: #f5b041 !important;
+        }
+        input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+            box-shadow: inset 0 0 0 2px rgba(245, 176, 65, 0.3) !important;
+            color: #ffffff !important;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+            background: rgba(245, 176, 65, 0.1) !important;
+        }
+        a.special:not(.button):before {
+            border-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        a.special:not(.button):hover:before {
+            background: rgba(245, 176, 65, 0.1) !important;
+        }
+        #banner .logo .icon {
+            border-color: rgba(245, 176, 65, 0.3) !important;
+        }
+        .badge {
+            color: #f5b041 !important;
+        }
+        .badge i {
+            color: #f5b041 !important;
+        }
+        .contact a {
+            color: #f5b041 !important;
+        }
+        .contact a:hover {
+            text-decoration: underline !important;
+        }
+        .contact p strong {
+            color: #ffffff !important;
+        }
+        footer a {
+            color: #f5b041 !important;
+        }
+        footer a:hover {
+            text-decoration: underline !important;
+        }
+        .copyright a {
+            color: #f5b041 !important;
+        }
+        /* Адаптация под мобильные */
+        @media (max-width: 640px) {
+            .features article {
+                margin: 0 0 1em 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <span class="icon fa-gem"></span>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <h1>SOLARIS VIA</h1>
+                <p>Singapore. Horizon 3037. We create cities that breathe, recycle, and grow with people.</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#directions">Directions</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#trust">Trust</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Mission -->
+        <article id="mission">
+            <h2 class="major">Architect of Sustainable Civilizations</h2>
+            <p>We solve the problems of urbanization, ecology, and human capital in an integrated manner. Five directions — one closed-loop ecosystem. Our first market is Bangladesh (175 million people). Our scale is Southeast Asia and Africa (2.5 billion people by 2050).</p>
+            <a href="#contact" class="button primary">Become a participant</a>
+        </article>
+
+        <!-- Directions -->
+        <article id="directions">
+            <h2 class="major">Five Directions. One Ecosystem.</h2>
+            <p>We don't solve one problem — we solve them all simultaneously. Each direction amplifies the others.</p>
+            <div class="features">
+                <article>
+                    <span class="icon solid fa-chart-line"></span>
+                    <div class="content">
+                        <h3>MERAKI ADVISORY</h3>
+                        <p>Strategy, ESG certification, investment attraction.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-recycle"></span>
+                    <div class="content">
+                        <h3>RESOURCE QUANTUM</h3>
+                        <p>Waste-to-energy and secondary materials recycling.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-water"></span>
+                    <div class="content">
+                        <h3>PRAGMATICA DELTA</h3>
+                        <p>Water purification, ecosystem restoration, carbon credits.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-city"></span>
+                    <div class="content">
+                        <h3>NOVUS ORBIS</h3>
+                        <p>Eco-cities, smart neighborhoods, affordable housing.</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="icon solid fa-users"></span>
+                    <div class="content">
+                        <h3>ANIMA MUNDI</h3>
+                        <p>Education, culture, health, and community well-being.</p>
+                    </div>
+                </article>
+            </div>
+        </article>
+
+        <!-- Facts -->
+        <article id="facts">
+            <h2 class="major">Numbers That Speak for Themselves</h2>
+            <p>We rely on data, not promises. The market exists. The resources exist. The model is calculated.</p>
+            <ul class="statistics">
+                <li class="style1">
+                    <span class="icon solid fa-people-group"></span>
+                    <strong>175M</strong> Population of Bangladesh
+                </li>
+                <li class="style2">
+                    <span class="icon solid fa-trash"></span>
+                    <strong>30K t/day</strong> Solid waste
+                </li>
+                <li class="style3">
+                    <span class="icon solid fa-house-chimney"></span>
+                    <strong>2.5M</strong> Housing deficit in Dhaka
+                </li>
+                <li class="style4">
+                    <span class="icon solid fa-chart-pie"></span>
+                    <strong>22%</strong> Projected IRR
+                </li>
+                <li class="style5">
+                    <span class="icon solid fa-clock"></span>
+                    <strong>6.5 yrs</strong> Payback period
+                </li>
+                <li class="style6">
+                    <span class="icon solid fa-arrow-trend-up"></span>
+                    <strong>38%</strong> EBITDA margin by year 5
+                </li>
+            </ul>
+        </article>
+
+        <!-- Trust -->
+        <article id="trust">
+            <h2 class="major">We Build Trust on Facts</h2>
+            <p>We are forming SOLARIS VIA as a company with Singapore jurisdiction — our legal foundation (registration scheduled for September 2026).</p>
+            <p>We operate according to ESG standards and are guided by the Paris Agreement — our principles already embedded in the business model.</p>
+            <p>We are in negotiations with partners (Siemens, Veolia, ADB, Green Climate Fund) — our strategic focus.</p>
+            <p>Legal integrity and transparency are our standards.</p>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+            <h2 class="major">Ready for Dialogue. Become Part of the Future.</h2>
+            <p>We are open to strategic partners, investors, and grantmakers.</p>
+            <p><strong>Email:</strong> <a href="mailto:founder@solarisvia.com">founder@solarisvia.com</a></p>
+            <p><strong>Phone:</strong> +7-905-775-55-17</p>
+            <a href="#" class="button primary">Download White Paper</a>
+        </article>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="copyright">&copy; SOLARIS VIA PTE. LTD. — Singapore. All rights reserved.</p>
+        <p class="copyright">This site is for informational purposes and is not an offer.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
